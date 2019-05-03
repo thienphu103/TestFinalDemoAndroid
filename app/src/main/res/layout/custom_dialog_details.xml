@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AddUserActivity">
+
+    <EditText
+        android:id="@+id/edt_dialog_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/edt_dialog_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age" />
+
+    <EditText
+        android:id="@+id/edt_dialog_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_dialog_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_update"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/btn_dialog_delete"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
